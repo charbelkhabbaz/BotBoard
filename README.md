@@ -13,7 +13,7 @@
 - 🔗 MySQL backend for real data queries
 - 📊 Plotly charts and user-driven insights
 
-**Tech Stack**
+**Languages and libraries used:**
 - Python
 - Streamlit
 - scikit-learn
