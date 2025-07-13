@@ -75,12 +75,15 @@ The dashboard fetches data live from the MySQL database using SQL queries. If an
 <img width="1566" height="777" alt="Capture1" src="https://github.com/user-attachments/assets/7fffc5f4-904d-462d-b88d-d52f58955e3f" />
 
 
+
 <img width="1542" height="773" alt="Capture2" src="https://github.com/user-attachments/assets/a8239224-4949-4c38-8aaa-69549cb4fce2" />
+
 
 
 <img width="1577" height="775" alt="Capture3" src="https://github.com/user-attachments/assets/2d3c6f06-adf6-4e85-a19f-bc6e82049337" />
 
 The Progress page displays the target investment and shows how close the business’s total investment is to the specified target.
+
 
 <img width="1577" height="674" alt="Capture4" src="https://github.com/user-attachments/assets/17713e6e-474b-41df-96a3-6095efca88d1" />
 
@@ -114,6 +117,7 @@ Creates synthetic renewal data based on Rating scores
 <img width="1576" height="719" alt="Capture5" src="https://github.com/user-attachments/assets/d0f51d70-f798-420b-8cb1-4babf84826fc" />
 
 
+
 <img width="1557" height="698" alt="Capture6" src="https://github.com/user-attachments/assets/98c9cb89-b8e4-4e25-a75f-7107bec9130b" />
 
 💬 Chatbot Integration
@@ -121,10 +125,15 @@ The chatbot is designed to simplify interaction with the insurance dataset by al
 This makes the chatbot both user-friendly and developer-aware, bridging the gap between business users and technical professionals.
 
 
+
 <img width="1547" height="689" alt="Capture7" src="https://github.com/user-attachments/assets/3fc12349-f7a3-45c6-96ca-dc9b009ed666" />
 
 
+
+
 <img width="1540" height="696" alt="Capture8" src="https://github.com/user-attachments/assets/6c654cd8-dc11-4f5b-83b0-6b903cad6bef" />
+
+
 
 
 <img width="1574" height="758" alt="Capture9" src="https://github.com/user-attachments/assets/31ad7f8d-64ce-4ac1-917e-c99f592a3490" />
