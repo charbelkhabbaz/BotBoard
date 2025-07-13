@@ -80,6 +80,10 @@ The dashboard fetches data live from the MySQL database using SQL queries. If an
 
 
 
+
+
+
+
 <img width="1577" height="775" alt="Capture3" src="https://github.com/user-attachments/assets/2d3c6f06-adf6-4e85-a19f-bc6e82049337" />
 
 The Progress page displays the target investment and shows how close the business’s total investment is to the specified target.
