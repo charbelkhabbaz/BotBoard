@@ -1,0 +1,86 @@
+/* Professional Grey, Red & Black color palette */
+:root {
+    --primary-color: #1a1a1a; /* dark black */
+    --secondary-color: #2c3e50; /* dark grey */
+    --accent-color: #e74c3c; /* red accent */
+    --accent-dark: #c0392b; /* darker red */
+    --background-color: #0f0f0f; /* very dark black */
+    --text-color: #ffffff; /* pure white */
+    --border-color: #34495e;
+    --shadow-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Metric Container Styling */
+[data-testid=metric-container] {
+    box-shadow: 0 2px 6px var(--shadow-color);
+    padding: 15px;
+    border-radius: 8px;
+    background: var(--secondary-color);
+    transition: transform 0.2s ease;
+}
+
+[data-testid=metric-container]:hover {
+    transform: translateY(-2px);
+}
+
+/* Plot Container Styling */
+.plot-container>div {
+    box-shadow: 0 2px 6px var(--shadow-color);
+    padding: 15px;
+    border-radius: 8px;
+    background: var(--primary-color);
+    margin: 10px 0;
+}
+
+/* Expander Styling */
+div[data-testid="stExpander"] {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin: 10px 0;
+    background: var(--primary-color);
+}
+
+div[data-testid="stExpander"] div[role="button"] p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+/* Sidebar Styling */
+[data-testid=stSidebar] {
+    background-color: var(--primary-color);
+    border-right: 1px solid var(--border-color);
+}
+
+.sidebar-content {
+    color: var(--text-color);
+}
+
+/* Multiselect Styling */
+.stMultiSelect {
+    background-color: var(--secondary-color);
+    border-radius: 6px;
+    color: var(--text-color);
+}
+
+/* Progress Bar Styling */
+.stProgress > div > div > div > div {
+    background-image: linear-gradient(to right, var(--accent-color), var(--secondary-color));
+    border-radius: 10px;
+}
+
+/* General Layout Improvements */
+.stApp {
+    background-color: var(--background-color);
+}
+
+/* Card Styling */
+div[data-testid="stVerticalBlock"] > div[style*="flex-direction: column"] > div[data-testid="stVerticalBlock"] {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px var(--shadow-color);
+    margin: 0.5rem 0;
+    color: var(--text-color);
+}
