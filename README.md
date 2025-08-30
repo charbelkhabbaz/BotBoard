@@ -6,10 +6,7 @@
 - 💬 Natural language chatbot for querying database
 - 🤖 Machine Learning models:
   - Investment Prediction (Regression , Random Forest Regressor)
-  - Risk Classification (Random Forest Classifier)
-  - Customer Segmentation (KMeans)
   - Anomaly Detection (Isolation Forest)
-  - Renewal Prediction (Logistic Regression)
 - 🔗 MySQL backend for real data queries
 - 📊 Plotly charts and user-driven insights
 
@@ -98,25 +95,11 @@ The Machine Learning page provides access to multiple predictive models that ana
 1. 📈 Investment Prediction
 Linear Regression: Simple linear model for predicting investment amounts
 Random Forest Regressor: Ensemble model with 100 estimators for more complex investment predictions
-2. 🎯 Risk Analysis
-Random Forest Classifier: Binary classification model to identify high-risk vs low-risk policies
-Uses features: Investment amount and calculated Risk Score
-Risk Score = average of (Earthquake, Flood, Rating features)
-3. 👥 Customer Segmentation
-K-Means Clustering: Unsupervised clustering algorithm
-Configurable number of segments (2-6 clusters)
-Uses features: Investment and Rating
-Standardizes features with StandardScaler before clustering
-4. 🔍 Anomaly Detection
+2. 🔍 Anomaly Detection
 Isolation Forest: Unsupervised anomaly detection algorithm
 Configurable contamination rate (1-10%)
 Uses features: Investment, Rating, Earthquake, Flood
 Standardizes features with StandardScaler
-5. 🔄 Renewal Prediction
-Logistic Regression: Binary classification for predicting policy renewal likelihood
-Uses features: Investment, Rating, Days to Expiry
-Creates synthetic renewal data based on Rating scores
-
 
 <img width="1576" height="719" alt="Capture5" src="https://github.com/user-attachments/assets/d0f51d70-f798-420b-8cb1-4babf84826fc" />
 
